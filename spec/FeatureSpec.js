@@ -5,8 +5,8 @@ describe('Feature Test:', function() {
   var airport;
 
   beforeEach(function() {
-    plane = new plane();
-    airport = new airport();
+    plane = new Plane();
+    airport = new Airport();
   });
 
   it('instruct planes to land at airport', function() {
